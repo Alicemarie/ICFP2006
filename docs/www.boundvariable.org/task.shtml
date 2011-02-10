@@ -80,21 +80,19 @@
 それはこの文化の研究の傑作であるとして、また、
 歴史を紐解く新たなる一歩そのものとして受け入れられた&mdash;そして、
 おそらくは計算のためにも。
-残念ながら古写本の解釈は難しく、そのまま10年を過ぎたのち、
+残念ながら古写本の解析は難しく、そのまま10年を過ぎたのち、
 モンローヴィレ文書の探求はいつしか闇へと葬られた。
 1978年からその古写本は、カーネギー自然博物館の地下へ保管されることとなった。
 </p>
 
 <img src="spec.png" style="float : right ; padding : 4px 0px 4px 12px" />
 <p>
-Two weeks ago, during a visit to the excavation site for a new
-computer science building at CMU, workers discovered a set of
-inscribed tablets that proved to be the Rosetta Stone for interpreting
-the Monroeville codex.  The tablets precisely specify the Cult's
-computing device, known to initiates as the "Universal Machine."
-Although there is still no evidence that the cult succeeded in
-constructing their machine, it is a reasonably simple task to emulate
-it on modern hardware.
+2週間前、CMUのコンピュータ科学関係の建物を発掘しようと現場に来ていた作業員たちは、
+モンローヴィレの古写本の解析のロゼッタストーン（†キー）となるであろう、
+刻印の施されたタブレットのセットを発見した。
+タブレットは明らかに例の文化のコンピューティングデバイス "Universal Macine"
+を指し示していた。未だいずれのマシンに使えるのか判別できないものもあるにはあったが、
+合理的に考えれば、モダンハードウェアでエミュレートするというのはシンプルな課題だった。
 </p>
 
 <p>
