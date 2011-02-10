@@ -30,8 +30,8 @@
       32-bit numbers"（特許 #4,294,967,295 を参照）システムを使う
       ことで、プラッタの上のマーキングは数値に成り得ます。
 
-    * Eight distinct general-purpose registers, capable of holding one
-      platter each.
+    * 8つの区別される多目的レジスタがあり、それぞれひとつのプラッタ
+      を保持することができる。
 
     * A collection of arrays of platters, each referenced by a distinct
       32-bit identifier. One distinguished array is referenced by 0
