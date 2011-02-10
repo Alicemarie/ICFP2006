@@ -101,17 +101,17 @@
 古写本を一通り見た限り、古写本はどうやら洗練されたプログラミングアイディアを採用しているらしい。
 例えそれが、我々の目には多少なりとも奇妙に見えたとしてもだ。
 例の文化が最新のエレクトロニクスや型理論にまで到達していたかも知れない可能性を考えると、
-我々はそれを不思議に思わざるを得ないのだ。
+我々はそれを不思議に思わざるを得ない。
 </p>
 
 <p>
-I have enlisted the help of the CMU Principles of Programming group in
-creating a venue for study of the codex.  We invite you to participate
-in this investigation.  The codex and a translation of the Universal
-Machine (UM) specification are available for <a
-href="#materials">download</a> from our web site.  We encourage you to
-implement the UM and begin your own exploration of the codex.  When
-you are prompted to enter a decryption key, type the following string:
+私は古写本の研究会を開くための場所を提供してもらおうと、
+CMUプログラミンググループの筆頭者たちに助けを求めた。
+この研究会に、ぜひ君も参加してもらえないだろうか。
+古写本と Universal Machine (UM) の仕様の翻訳は、
+このウェブサイトの<a href="#materials">ダウンロード</a>から手に入れられる。
+君が UM を実装し、君自身が古写本の探索を始めてくれることを期待している。
+暗号解除キーを入力するプロンプトが表示されたら、以下の文字列を入力してほしい。
 <span class="hexstring"> (\b.bb)(\v.vv)06FHPVboundvarHRAk </span>
 </p>
 
