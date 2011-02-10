@@ -45,8 +45,8 @@
       出力の可能な 1x1 文字解像度コンソール。
   
 
-  Behavior.
-  ---------
+  挙動
+  ----
 
   The machine shall be initialized with a '0' array whose contents
   shall be read from a "program" scroll. All registers shall be
