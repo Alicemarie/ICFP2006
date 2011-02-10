@@ -175,17 +175,17 @@ Computational Archaeolinguistics Institute<br/>
 
 <h1>Contest Materials</h1> <a name="materials"></a>
 
-<h2>UM Specification</h2>
+<h2>UM 仕様</h2>
 
 <div style="margin-left: auto; margin-right : auto; border : 1px dashed #123456 ; background : #345678 ; padding : 4px ; width : 400px ">
 <table border=0><tr><td valign=center><a href="um-spec.txt"><img src="file_txt.gif" border="0" style="margin-top : 6px  ; margin-right : 6px"></a></td><td valign=center><a class="filelink" href="um-spec.txt">um-spec.txt</a></td></tr></table>
 <table width="100%">
-<tr><td>Specification for the Universal Machine. Text format.</td></tr>
+<tr><td>Universal Machine の仕様書。テキストフォーマット。</td></tr>
 </table>
 </div>
 
 
-<h2>Codex</h2>
+<h2>古写本</h2>
 
 <div style="margin-left: auto; margin-right : auto; border : 1px dashed #123456 ; background : #345678 ; padding : 4px ; width : 400px ">
 <table border=0>
@@ -207,7 +207,7 @@ Computational Archaeolinguistics Institute<br/>
 <a class="filelink" href="sandmark.umz">sandmark.umz</a></td></tr>
 </table>
 <table width="100%">
-<tr><td>Benchmark for the Universal Machine. <a href="sandmark-output.txt">Expected output.</a></td></tr>
+<tr><td>Universal Machineのベンチマーク。<a href="sandmark-output.txt">予測される挙動</a>。</td></tr>
 </table>
 <table width="100%">
  <tr><td>MD5 hash</td><td class="hexstring">1c604d454de05d04afdabd2c63fb27fb</td></tr>
@@ -215,7 +215,7 @@ Computational Archaeolinguistics Institute<br/>
 </table>
 </div>
 
-<h2>Reference Implementation</h2>
+<h2>参照実装</h2>
 
 <div style="margin-left: auto; margin-right : auto; border : 1px dashed #123456 ; background : #345678 ; padding : 4px ; width : 400px ">
 <table border=0>
@@ -223,18 +223,19 @@ Computational Archaeolinguistics Institute<br/>
 <a class="filelink" href="um.um">um.um</a> (1024 bytes)</td></tr>
 </table>
 <table width="100%">
-<tr><td>CMU Reference implementation of the Universal Machine.</td></tr>
+<tr><td>CMU による Universal Machine の参照実装。</td></tr>
 </table>
 <table width="100%">
-<p>This implementation supports all UM programs, including uncompressed
-.um files and self-decompressing .umz files. To use this
-implementation to run a UM binary called c.um, simply concatenate the
-two files together:</p>
+<p>この実装は、圧縮されていない .um ファイルでも、自己圧縮形式の .umz ファイルでも、
+あらゆる UM プログラムをサポートしています。この実装を c.um と呼ばれる
+UM バイナリを起動するために使うには、単に2つのファイルを結合してください。
+</p>
 
 <p><span class="balance">cat um.um c.um > cmu.um</span></p>
 
-<p>The resulting binary can be run in any compliant universal machine
-implementation, including itself.</p>
+<p>
+結果としてできたバイナリは、 Universal Machine の実装に準拠していれば実行することができる。
+この「実行」には自分自身も含む。</p>
 </table>
 </div>
 
