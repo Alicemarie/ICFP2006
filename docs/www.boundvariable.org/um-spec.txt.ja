@@ -1,20 +1,20 @@
 
-  Order for Construction          Standard Sand of Pennsylvania Co.
+  発注建設                       Standard Sand of Pennsylvania Co.
 
-  Client: Cult of the Bound Variable
-  Object: UM-32 "Universal Machine"
+  クライアント: 束縛変数教
+  オブジェクト: UM-32 "Universal Machine"
   -----------------------------------------------------------------
-                                                      21 July 19106
+                                                     19106年7月21日
 
-  Physical Specifications.
-  ------------------------
+  物理仕様
+  --------
 
-  The machine shall consist of the following components:
+  マシンは次のようなコンポーネントによって構成されます:
 
-    * An infinite supply of sandstone platters, with room on each
-      for thirty-two small marks, which we call "bits."
+    * 砂岩プラッタの無限供給。砂岩プラッタは「ビット」と呼ばれ
+      る32個の小さなマークから成ります。
 
-                           least meaningful bit
+                               最少価値のビット
                                               |
                                               v
               .--------------------------------.
@@ -22,13 +22,13 @@
               `--------------------------------'
                ^
                |
-               most meaningful bit
+               最大価値のビット
 
-              Figure 0. Platters
+              図 0. プラッタ
       
-      Each bit may be the 0 bit or the 1 bit. Using the system of
-      "unsigned 32-bit numbers" (see patent #4,294,967,295) the
-      markings on these platters may also denote numbers.
+      各ビットはそれぞれ0ビットもしくは1ビットです。"unsigned
+      32-bit numbers"（特許 #4,294,967,295 を参照）システムを使う
+      ことで、プラッタの上のマーキングは数値に成り得ます。
 
     * Eight distinct general-purpose registers, capable of holding one
       platter each.
