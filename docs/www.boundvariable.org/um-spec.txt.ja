@@ -33,15 +33,16 @@
     * 8つの区別される多目的レジスタがあり、それぞれひとつのプラッタ
       を保持することができる。
 
+    * プラッタの配列のコレクションがあり、それぞれ区別される
+      32-bit の識別子によって参照される。
     * A collection of arrays of platters, each referenced by a distinct
       32-bit identifier. One distinguished array is referenced by 0
       and stores the "program." This array will be referred to as the
       '0' array.
 
-    * A 1x1 character resolution console capable of displaying glyphs
-      from the "ASCII character set" (see patent #127) and performing
-      input and output of "unsigned 8-bit characters" (see patent
-      #255).
+    * 「ASCII文字セット」（特許 #127 参照）の象形文字を表示可能かつ
+      「unsigned 8-bit characters」（特許 #255 参照）による入力、
+      出力の可能な 1x1 文字解像度コンソール。
   
 
   Behavior.
