@@ -104,39 +104,39 @@
 
   各ベーシックオペレータの概要は以下の通りです。
 
-  Operator #0. Conditional Move.
+  オペレータ #0. Conditional Move.
 
-                  The register A receives the value in register B,
-                  unless the register C contains 0.
+                  レジスタCが0でなければ
+                  レジスタAはレジスタBの値を受け取る
 
-           #1. Array Index.
+             #1. Array Index.
 
                   The register A receives the value stored at offset
                   in register C in the array identified by B.
 
-           #2. Array Amendment.
+             #2. Array Amendment.
 
                   The array identified by A is amended at the offset
                   in register B to store the value in register C.
 
-           #3. Addition.
+             #3. Addition.
 
                   The register A receives the value in register B plus 
                   the value in register C, modulo 2^32.
 
-           #4. Multiplication.
+             #4. Multiplication.
 
                   The register A receives the value in register B times
                   the value in register C, modulo 2^32.
 
-           #5. Division.
+             #5. Division.
 
                   The register A receives the value in register B
                   divided by the value in register C, if any, where
                   each quantity is treated treated as an unsigned 32
                   bit number.
 
-           #6. Not-And.
+             #6. Not-And.
 
                   Each bit in the register A receives the 1 bit if
                   either register B or register C has a 0 bit in that
