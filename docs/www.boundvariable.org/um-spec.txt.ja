@@ -111,13 +111,13 @@
 
              #1. Array Index.
 
-                 レジスタAは、Bに規定された配列の
-                 レジスタCのオフセットにある値を受け取る。
+                  レジスタAは、Bに規定された配列の
+                  レジスタCのオフセットにある値を受け取る。
 
              #2. Array Amendment.
 
-                  The array identified by A is amended at the offset
-                  in register B to store the value in register C.
+                  Aに規定される配列は、レジスタBのオフセットにある
+                  レジスタCの値で修正される。
 
              #3. Addition.
 
