@@ -107,12 +107,12 @@
   オペレータ #0. Conditional Move.
 
                   レジスタCが0でなければ
-                  レジスタAはレジスタBの値を受け取る
+                  レジスタAはレジスタBの値を受け取る。
 
              #1. Array Index.
 
-                  The register A receives the value stored at offset
-                  in register C in the array identified by B.
+                 レジスタAは、Bに規定された配列の
+                 レジスタCのオフセットにある値を受け取る。
 
              #2. Array Amendment.
 
