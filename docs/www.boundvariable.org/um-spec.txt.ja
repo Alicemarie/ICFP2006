@@ -53,10 +53,9 @@
   値のプラッタによって初期化されます。実行指（†execution finer）
   は '0' 配列のオフセット0、すなわち最初のプラッタを指しています。
 
-  When reading programs from legacy "unsigned 8-bit character"
-  scrolls, a series of four bytes A,B,C,D should be interpreted with
-  'A' as the most magnificent byte, and 'D' as the most shoddy, with
-  'B' and 'C' considered lovely and mediocre respectively.
+  レガシーな "unsigned 8-bit character" スクロールからプログラムが
+  渡されると、A,B,C,Dの組み合わせのバイトが、'A'なら最大格、'D'なら
+  最少格、'B'と'C'はそれぞれ中大格、中少格として解釈されます。
 
   Once initialized, the machine begins its Spin Cycle. In each cycle
   of the Universal Machine, an Operator shall be retrieved from the
