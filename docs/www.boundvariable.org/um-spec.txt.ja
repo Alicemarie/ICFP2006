@@ -64,21 +64,20 @@
   オペレータが解釈されないと、実行指は必要に応じて次のプラッタへ
   動作を移します。
 
-  Operators.
+  オペレータ
   ----------
 
-  The Universal Machine may produce 14 Operators. The number of the
-  operator is described by the most meaningful four bits of the
-  instruction platter.
+  Unversal Machineには14のオペレータがあります。オペレータの
+  ナンバーは通達されたプラッタの最大価値4ビットにより規定されます。
 
               .--------------------------------.
               |VUTSRQPONMLKJIHGFEDCBA9876543210|
               `--------------------------------'
                ^^^^
                |
-               operator number
+               オペレータのナンバー
 
-              Figure 1. Operator Description
+              図 1. オペレータの概要
 
 
   Standard Operators.
