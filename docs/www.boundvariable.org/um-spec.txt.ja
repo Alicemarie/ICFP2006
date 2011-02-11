@@ -224,8 +224,8 @@
                   The value indicated is loaded into the register A
                   forthwith.
 
-  Cost-Cutting Measures.
-  ----------------------
+  コストダウンの目安
+  ------------------
 
   As per our meeting on 13 Febtober 19106, certain "impossible
   behaviors" may be unimplemented in the furnished device. An
