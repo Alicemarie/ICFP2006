@@ -57,12 +57,12 @@
   渡されると、A,B,C,Dの組み合わせのバイトが、'A'なら最大格、'D'なら
   最少格、'B'と'C'はそれぞれ中大格、中少格として解釈されます。
 
-  Once initialized, the machine begins its Spin Cycle. In each cycle
-  of the Universal Machine, an Operator shall be retrieved from the
-  platter that is indicated by the execution finger. The sections
-  below describe the operators that may obtain. Before this operator
-  is discharged, the execution finger shall be advanced to the next
-  platter, if any.
+  一度初期化されてしまうと、マシンはスピンサイクルに入ります。
+  Unversal Machineにおいては、各サイクルは実行指の指すプラッタから
+  「オペレータ」を受け取ります。以下のセクションでは、そこで
+  受け取ることになるであろうオペレータを記述します。この
+  オペレータが解釈されないと、実行指は必要に応じて次のプラッタへ
+  動作を移します。
 
   Operators.
   ----------
