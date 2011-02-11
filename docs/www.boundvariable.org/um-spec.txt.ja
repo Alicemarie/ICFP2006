@@ -80,15 +80,14 @@
               図 1. オペレータの概要
 
 
-  Standard Operators.
-  -------------------
+  標準オペレータ
+  --------------
 
-  Each Standard Operator performs an errand using three registers,
-  called A, B, and C. Each register is described by a three bit
-  segment of the instruction platter. The register C is described by
-  the three least meaningful bits, the register B by the three next
-  more meaningful than those, and the register A by the three next
-  more meaningful than those.
+  各標準オペレータは、A,B,Cの3つのレジスタを使うことで動作を
+  可能にします。各レジスタは通達されたプラッタの3ビット
+  によって規定されます。レジスタCは最少価値の3ビット、レジスタ
+  Bは次に価値の少ない3ビット、レジスタAは次に価値の少ない3ビット
+  です。
 
                                       A     C
                                       |     |
@@ -98,12 +97,12 @@
               `--------------------------------'
                ^^^^                      ^^^
                |                         |
-               operator number           B
+               オペレータのナンバー      B
 
-              Figure 2. Standard Operators
+              図 2. 標準オペレータ
 
 
-  A description of each basic Operator follows.
+  各ベーシックオペレータの概要は以下の通りです。
 
   Operator #0. Conditional Move.
 
