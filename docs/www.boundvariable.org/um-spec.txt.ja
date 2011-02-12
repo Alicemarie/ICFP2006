@@ -151,7 +151,7 @@
 
            #7. Halt.
 
-                  The universal machine stops computation.
+                  Universal Machine の稼動がストップします。
 
            #8. Allocation.
 
