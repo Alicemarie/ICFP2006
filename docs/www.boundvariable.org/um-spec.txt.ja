@@ -169,9 +169,8 @@
 
           #10. Output.
 
-                  The value in the register C is displayed on the console
-                  immediately. Only values between and including 0 and 255
-                  are allowed.
+                  レジスタCの値がコンソールに即座に表示される。0から255の
+                  間の値のみ。
 
           #11. Input.
 
