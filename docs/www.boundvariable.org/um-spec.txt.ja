@@ -143,26 +143,25 @@
   他のオペレータ
   --------------
 
-  The following instructions ignore some or all of the A, B and C
-  registers.
+  以下の命令はレジスタA、B、Cのいずれか、もしくはすべてを無視
+  します。
 
            #7. Halt.
 
-                  Universal Machine の稼動がストップします。
+                  Universal Machine の稼動がストップする。
 
            #8. Allocation.
 
-                  A new array is created with a capacity of platters
-                  commensurate to the value in the register C. This
-                  new array is initialized entirely with platters
-                  holding the value 0. A bit pattern not consisting of
-                  exclusively the 0 bit, and that identifies no other
-                  active allocated array, is placed in the B register.
+                  レジスタCの値の示すプラッタと同容量の配列が作成され
+                  る。この新たな配列のビットはすべて0で初期化される。
+                  ビットパターンは0ビット以外のもので構成されていては
+                  ならず、他にアロケートされたアクティブな配列を参照
+                  せず、Bレジスタに配置される。
 
            #9. Abandonment.
 
-                  The array identified by the register C is abandoned.
-                  Future allocations may then reuse that identifier.
+                  レジスタCの参照する配列が破棄される。この参照は
+                  将来的にアロケートされ、再利用される可能性がある。
 
           #10. Output.
 
@@ -171,35 +170,29 @@
 
           #11. Input.
 
-                  The universal machine waits for input on the console.
-                  When input arrives, the register C is loaded with the
-                  input, which must be between and including 0 and 255.
-                  If the end of input has been signaled, then the 
-                  register C is endowed with a uniform value pattern
-                  where every place is pregnant with the 1 bit.
+                  Universal Machineはコンソールからの入力を待つ。入力を
+                  検知すると、レジスタCにその値がロードされる。値は0から
+                  255の間でなければならない。入力完了の信号を受け取ると、
+                  レジスタCはすべて1ビットになった均一な値のパターンを
+                  受け取る。
 
           #12. Load Program.
 
-                  The array identified by the B register is duplicated
-                  and the duplicate shall replace the '0' array,
-                  regardless of size. The execution finger is placed
-                  to indicate the platter of this array that is
-                  described by the offset given in C, where the value
-                  0 denotes the first platter, 1 the second, et
-                  cetera.
+                  Bレジスタから参照される配列はサイズに関わらず複製され、
+                  その複製は '0' 配列に置き換えられる。実行指はこの
+                  配列から、レジスタCのオフセット（0なら最初のプラッタ、
+                  1ならその次、など）を示すようになる。
 
-                  The '0' array shall be the most sublime choice for
-                  loading, and shall be handled with the utmost
-                  velocity.
+                  '0' 配列はロードに際してもっとも崇高なものとなり、
+                  最大限の優先度をもって扱われる。
 
-  Special Operators.
-  ------------------
+  特殊オペレータ
+  --------------
 
-  One special operator does not describe registers in the same way.
-  Instead the three bits immediately less significant than the four
-  instruction indicator bits describe a single register A. The
-  remainder twenty five bits indicate a value, which is loaded
-  forthwith into the register A.
+  ある特殊なオペレータは、これまでのようなレジスタの表現方法ではあり
+  ません。命令を表す4ビットよりも価値の低い、先頭の3ビットが代わりに
+  単一のレジスタAを表現します。残りの25ビットは直ちにレジスタAにロー
+  ドされる値を表しています。
 
                    A  
                    |  
@@ -209,18 +202,17 @@
               `--------------------------------'
                ^^^^   ^^^^^^^^^^^^^^^^^^^^^^^^^
                |      |
-               |      value
+               |      値
                |
-               operator number
+               オペレータ番号
 
-               Figure 3. Special Operators
+               図 3. 特殊オペレータ
 
           #13. Orthography.
 
-                  The value indicated is loaded into the register A
-                  forthwith.
+                  指定された値が即座にレジスタAへロードされる。
 
-  コストダウンの目安
+  コストダウンの尺度
   ------------------
 
   As per our meeting on 13 Febtober 19106, certain "impossible
