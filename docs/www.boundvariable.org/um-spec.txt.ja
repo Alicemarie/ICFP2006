@@ -121,30 +121,27 @@
 
              #3. Addition.
 
-                  The register A receives the value in register B plus 
-                  the value in register C, modulo 2^32.
+                  レジスタAはレジスタBとレジスタCを加算した値を受け取る。
+                  これは2の32乗の範囲内である。
 
              #4. Multiplication.
 
-                  The register A receives the value in register B times
-                  the value in register C, modulo 2^32.
+                  レジスタAはレジスタBとレジスタCを乗算した値を受け取る。
+                  これは2の32乗の範囲内である。
 
              #5. Division.
 
-                  The register A receives the value in register B
-                  divided by the value in register C, if any, where
-                  each quantity is treated treated as an unsigned 32
-                  bit number.
+                  レジスタAはレジスタBをレジスタC（必要ならば unsigned
+                  32 bitの値としてみなす）を除算した値を受け取る。
 
              #6. Not-And.
 
-                  Each bit in the register A receives the 1 bit if
-                  either register B or register C has a 0 bit in that
-                  position.  Otherwise the bit in register A receives
-                  the 0 bit.
+                  レジスタBもしくはレジスタCが0ビットならば、レジスタA
+                  の各ビットが1となる。でなければ、レジスタAは0ビット
+                  になる。
 
-  Other Operators.
-  ----------------
+  他のオペレータ
+  --------------
 
   The following instructions ignore some or all of the A, B and C
   registers.
