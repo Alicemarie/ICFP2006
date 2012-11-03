@@ -3,7 +3,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 <title>ICFP Programming Contest, 2006 : Contest Materials and Task</title>
-<meta http-equiv="Content-Type" content="charset=utf8; text/html">
 <link rel="stylesheet" type="text/css" href="icfp.css" title="ICFP" />
 <!-- try to fix pngs on ie -->
 <!--[if gte IE 5.5000]>
@@ -46,81 +45,88 @@
 <td valign="top">
 <div class="content">
 
-<h1>緊急要請</h1>
+<h1>An Urgent Appeal</h1>
 
 <p>
-親愛なる仲間諸君へ
+Dear Colleague:
 </p>
 
 <p>
-1967年、ペンシルバニア州モンローヴィレにて、新しいショッピングセンターの建設中、
-作業員たちは太古のスクロールの貯蔵庫を含むヴォールトの存在を掘り当てた。
-そのほとんどは修復不可能なほどダメージを受けていたが、紀元前200年付近の、
-これまで長らく疑問視されていた神秘的社会の存在を裏付けることになったのは間違いない。
+In 1967, during excavation for the construction of a new shopping
+center in Monroeville, Pennsylvania, workers uncovered a vault
+containing a cache of ancient scrolls.  Most were severely damaged,
+but those that could be recovered confirmed the existence of a secret
+society long suspected to have been active in the region around the
+year 200 BC.
 </p>
 
 <p>
-発見された文書の翻訳を基にすると、
-かつて『束縛変数教』と呼ばれる社会があったということはどうやら間違いなさそうだった。
-デジタルコンピュータの出現まで、およそ2000年も前に、彼らは計算に対して非常に熱心に取り組んでいたようだ。
+Based on a translation of these documents, we now know that the
+society, the Cult of the Bound Variable, was devoted to the careful
+study of computation, over two millennia before the invention of the
+digital computer.
 </p>
 
 <p>
-モンローヴィレで発見されたスクロールが砂岩のコンピューティングマシン用のものだとわかるにつれて、
-ほとんどの研究者たちはこれを詩的に表現しただけのメタファであり、
-「コンピュータ」というのも実際には人間自身のことであって、
-羊皮紙にリードペンで計算を描く怖ろしく退屈な作業であったのだと決め付けた。
-一部では、都市レベルの、壮大に降り注ぐ砂のマシンだったのではないかと推測してはいたが、
-そういった装置の物的証拠は何も見付かっていなかった。
+While the Monroeville scrolls make reference to computing machines
+made of sandstone, most researchers believed this to be a poetic
+metaphor and that the "computers" were in fact the initiates
+themselves, carrying out the unimaginably tedious steps of their
+computations with reed pens on parchment.  A few have conjectured a
+city-sized machine powered by falling sand, but no physical evidence
+of such a device has been discovered.
 </p>
 
 <p>
-モンローヴィレに集積された文書のうち、無傷のものは非常に長い古写本であり、
-誰も知らない言語で、人間には不可能な正確さで書かれていた。
-それはこの宗教の研究の傑作であるとして、また、
-歴史を紐解く新たなる一歩そのものとして受け入れられた&mdash;そして、
-おそらくは計算技術の向上のためにも。
-残念ながら古写本の解析は難しく、そのまま10年を過ぎたのち、
-モンローヴィレ文書の探求はいつしか闇へと葬られた。
-1978年からその古写本は、カーネギー自然博物館の地下へ保管されることとなった。
+Among the documents found intact in the Monroeville collection was a
+lengthy codex, written in no known language and inscribed with
+superhuman precision.  It is believed to be the masterwork of the
+Cult's scholarship, and as such it carries immense potential to
+advance our understanding of history&mdash;and possibly of computing as
+well.  Unfortunately, the codex eluded interpretation, and over the
+decades, study of the Monroeville scrolls has slipped into obscurity.
+Since 1978, the codex has been stored in the basement of the Carnegie
+Museum of Natural History.
 </p>
 
 <img src="spec.png" style="float : right ; padding : 4px 0px 4px 12px" />
 <p>
-2週間前、CMUのコンピュータ科学関係の建物を発掘しようと現場に来ていた作業員たちは、
-モンローヴィレの古写本の解析のロゼッタストーン（†キー）となるであろう、
-刻印の施されたタブレットセットを発見した。
-タブレットは明らかに例の宗教のコンピューティングデバイス "Universal Macine"
-を指し示していた。未だいずれのマシンに使えるのか判別できないものもあるにはあったが、
-合理的に考えれば、モダンハードウェアでエミュレートするというのはシンプルな課題だった。
+Two weeks ago, during a visit to the excavation site for a new
+computer science building at CMU, workers discovered a set of
+inscribed tablets that proved to be the Rosetta Stone for interpreting
+the Monroeville codex.  The tablets precisely specify the Cult's
+computing device, known to initiates as the "Universal Machine."
+Although there is still no evidence that the cult succeeded in
+constructing their machine, it is a reasonably simple task to emulate
+it on modern hardware.
 </p>
 
 <p>
-現時点で間違いなく言えることは、この古写本は Universal Machine
-上で実行されるように設計されたものであるということだ。
-古写本を一通り見た限り、古写本はどうやら洗練されたプログラミングアイディアを採用しているらしい。
-例えそれが、我々の目には多少なりとも奇妙に見えたとしてもだ。
-例の宗教が最新のエレクトロニクスや型理論にまで到達していたかも知れない可能性を考えると、
-文化とは何と不思議なものだろうという思いを拭い去ることができない。
+We can now say with certainty that the codex is in fact a program,
+intended for execution on the Universal Machine.  Our initial
+exploration of the codex suggests that the Cult's ideas about
+programming were very sophisticated, if somewhat peculiar to the
+modern eye.  One cannot help but wonder what the Cult might have
+achieved had they had access to modern electronics and type theory.
 </p>
 
 <p>
-私は古写本の研究会を開くための場所を提供してもらおうと、
-CMUプログラミンググループの筆頭者たちに助けを求めた。
-この研究会に、ぜひ君も参加してもらえないだろうか。
-古写本と Universal Machine (UM) の仕様の翻訳は、
-このウェブサイトの<a href="#materials">ダウンロード</a>から手に入れられる。
-君が UM を実装し、君自身が古写本の探索を始めてくれることを期待している。
-暗号解除キーを入力するプロンプトが表示されたら、以下の文字列を入力してほしい。
+I have enlisted the help of the CMU Principles of Programming group in
+creating a venue for study of the codex.  We invite you to participate
+in this investigation.  The codex and a translation of the Universal
+Machine (UM) specification are available for <a
+href="#materials">download</a> from our web site.  We encourage you to
+implement the UM and begin your own exploration of the codex.  When
+you are prompted to enter a decryption key, type the following string:
 <span class="hexstring"> (\b.bb)(\v.vv)06FHPVboundvarHRAk </span>
 </p>
 
 <p>
-文化の学術的な出版物は我々の興味深い項目でもある。
-というのは、例の宗教の雑誌が砂岩のタブレットを循環しているからであり、
-編集者は非常に限られた文字数を強いられているからだ。
-結果として出版側は積極的に記事を圧縮していかなければならない。
-その独特の形式は以下のようになる。
+The Cult's scholarly publications are of particular interest to us.
+Because the Cult's journals were circulated on sandstone tablets,
+editors imposed very strict length limitations.  Consequently, authors
+aggressively compressed their articles.  A typical publication would
+have the following form:
 </p>
 
 <center><span class="publication">PUZZL.TSK=100@1001|14370747643c6d2db0a40ecb4b0bb65</span></center>
@@ -133,9 +139,11 @@ us via our web site. Our server will track all submitted publications,
 ensuring that every participant is given appropriate credit for
 advancing our understanding of the codex.  
 -->
-出版物は常に変動する値だ。中には他のものよりも価値の高い表現をされるものもある。
-この宗教の発刊プロセスを把握さえできていれば、
-古写本にメカニズムがあると仮定し、発刊周期の確認と合計値を計算することができるのだが。
+Publications are of varying
+value; some will represent a greater contribution than others.  Given our
+understanding of the Cult's publication process, we believe there is a
+mechanism within the codex that will verify a set of publications and compute their total
+value.
 <!--
 , and we
 will take this into account when assigning credit.
@@ -143,49 +151,49 @@ will take this into account when assigning credit.
 </p>
 
 <p>
-私個人としては、この宗教の研究方式に大いに感銘を受け、
-たとえ孤独な人生を送ることになっても、
-残る日々をすべてを計算とプログラミングに費すことを心に決めた。
-だが、そんな修道士に転職する前に、
-世界が『古写本』が解読する瞬間をぜひとも見てみたいのだ。
+On a personal note, being inspired by the scholarship of the
+Cult, I have decided to dedicate the remainder of my days to a solitary
+study of computation and programming languages.  However, before
+embarking on my monastic transformation, I wish to see that the
+world is well on its way to uncovering the secrets of the Codex.
 </p>
 
 <p>
-だからこそ頼みたい。私がすべてを捨て去る時、
-2006年7月24日(EDT)までにできるだけ多くの出版物を送ってほしいのだ。
-私の仲間である CMU POP グループのメンバー達は、きっとその時間までには、
-努力を惜しまずに最高の貢献をしてくれたチームの面々が確信をもって、
-特別な、ハッとさせられるような結果をもたらしてくれると保証してくれた。
+Therefore, I ask that you submit as many publications as you can by
+noon EDT on July 24, 2006, at which time I will be taking my orders.
+My colleagues in the CMU POP group assure me that at that time, the
+teams that have made the greatest contribution to the effort shall be
+identified for special recognition.
 </p>
 
 <p>
-力を貸してほしい。そして協力に感謝を。
+Good luck and thank you for your assistance.
 </p>
 
 
 <p>
-敬具<br/>
+Sincerely,<br/>
 <br/>
-Harry Q. Bovik名誉教授<br/>
+Professor Emeritus Harry Q. Bovik<br/>
 Computational Archaeolinguistics Institute<br/>
-カーネギーメロン大学<br/>
+Carnegie Mellon University<br/>
 </p>
 
 <br/><br/>
 
 <h1>Contest Materials</h1> <a name="materials"></a>
 
-<h2>UM 仕様</h2>
+<h2>UM Specification</h2>
 
 <div style="margin-left: auto; margin-right : auto; border : 1px dashed #123456 ; background : #345678 ; padding : 4px ; width : 400px ">
 <table border=0><tr><td valign=center><a href="um-spec.txt"><img src="file_txt.gif" border="0" style="margin-top : 6px  ; margin-right : 6px"></a></td><td valign=center><a class="filelink" href="um-spec.txt">um-spec.txt</a></td></tr></table>
 <table width="100%">
-<tr><td>Universal Machine の仕様書。テキストフォーマット。</td></tr>
+<tr><td>Specification for the Universal Machine. Text format.</td></tr>
 </table>
 </div>
 
 
-<h2>古写本</h2>
+<h2>Codex</h2>
 
 <div style="margin-left: auto; margin-right : auto; border : 1px dashed #123456 ; background : #345678 ; padding : 4px ; width : 400px ">
 <table border=0>
@@ -207,7 +215,7 @@ Computational Archaeolinguistics Institute<br/>
 <a class="filelink" href="sandmark.umz">sandmark.umz</a></td></tr>
 </table>
 <table width="100%">
-<tr><td>Universal Machineのベンチマーク。<a href="sandmark-output.txt">予測される挙動</a>。</td></tr>
+<tr><td>Benchmark for the Universal Machine. <a href="sandmark-output.txt">Expected output.</a></td></tr>
 </table>
 <table width="100%">
  <tr><td>MD5 hash</td><td class="hexstring">1c604d454de05d04afdabd2c63fb27fb</td></tr>
@@ -215,7 +223,7 @@ Computational Archaeolinguistics Institute<br/>
 </table>
 </div>
 
-<h2>参照実装</h2>
+<h2>Reference Implementation</h2>
 
 <div style="margin-left: auto; margin-right : auto; border : 1px dashed #123456 ; background : #345678 ; padding : 4px ; width : 400px ">
 <table border=0>
@@ -223,19 +231,18 @@ Computational Archaeolinguistics Institute<br/>
 <a class="filelink" href="um.um">um.um</a> (1024 bytes)</td></tr>
 </table>
 <table width="100%">
-<tr><td>CMU による Universal Machine の参照実装。</td></tr>
+<tr><td>CMU Reference implementation of the Universal Machine.</td></tr>
 </table>
 <table width="100%">
-<p>この実装は、圧縮されていない .um ファイルでも、自己圧縮形式の .umz ファイルでも、
-あらゆる UM プログラムをサポートしています。この実装を c.um と呼ばれる
-UM バイナリを起動するために使うには、単に2つのファイルを結合してください。
-</p>
+<p>This implementation supports all UM programs, including uncompressed
+.um files and self-decompressing .umz files. To use this
+implementation to run a UM binary called c.um, simply concatenate the
+two files together:</p>
 
 <p><span class="balance">cat um.um c.um > cmu.um</span></p>
 
-<p>
-結果としてできたバイナリは、 Universal Machine の実装に準拠していれば実行することができる。
-この「実行」には自分自身も含む。</p>
+<p>The resulting binary can be run in any compliant universal machine
+implementation, including itself.</p>
 </table>
 </div>
 
