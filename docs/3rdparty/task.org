@@ -1,5 +1,5 @@
 #+TITLE: ICFP Programming Contest, 2006 : Contest Materials and Task
-#+OPTIONS: \n:t toc:nil num:nil
+#+OPTIONS: toc:nil num:nil
 
 * An Urgent Appeal
 Dear Colleague:
@@ -95,5 +95,7 @@ Good luck and thank you for your assistance.
 Sincerely,
 
 Professor Emeritus Harry Q. Bovik
+
 Computational Archaeolinguistics Institute
+
 Carnegie Mellon University
